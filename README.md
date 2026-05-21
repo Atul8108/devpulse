@@ -14,9 +14,13 @@
 
 [Live Demo](https://devpulse.vercel.app) · [GitHub](https://github.com/Atul8108/devpulse)
 
-## Screenshot
+## Screenshots
 
-![Dashboard](./screenshots/dashboard.png)
+### Home
+![DevPulse home page](./docs/screenshots/home.png)
+
+### Developer Dashboard
+![Developer dashboard](./docs/screenshots/dashboard.png)
 
 ## Features
 
@@ -120,8 +124,10 @@ devpulse/
 │   ├── tsconfig.json
 │   └── vite.config.ts
 ├── README.md
-└── screenshots/
-    └── dashboard.png
+└── docs/
+    └── screenshots/
+        ├── home.png
+        └── dashboard.png
 ```
 
 ## License
