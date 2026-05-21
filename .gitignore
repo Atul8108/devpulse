@@ -52,4 +52,5 @@ memory/
 
 # ── Misc ─────────────────────────────────────────────────────
 screenshots/
+!docs/screenshots/
 *.local
