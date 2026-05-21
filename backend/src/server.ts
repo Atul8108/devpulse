@@ -24,6 +24,7 @@ app.use('/api/trending', trendingRoutes);
 
 app.use(errorHandler);
 
+
 connectDB()
   .then(() => {
     app.listen(PORT, () => {

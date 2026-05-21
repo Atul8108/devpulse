@@ -10,7 +10,7 @@ import LanguageChart from '../components/LanguageChart';
 import ActivityChart from '../components/ActivityChart';
 import SkeletonDash from '../components/SkeletonDash';
 
-const api = axios.create({ baseURL: 'http://localhost:5000' });
+const api = axios.create({ baseURL: import.meta.env.VITE_API_URL });
 
 interface Profile {
   login: string;
