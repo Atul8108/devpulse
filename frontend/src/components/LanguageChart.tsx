@@ -58,9 +58,9 @@ export default function LanguageChart({ languages }: Props) {
           </Pie>
           <Tooltip
             contentStyle={{ backgroundColor: '#1f2937', border: 'none', borderRadius: 8 }}
-            formatter={(value: number, name: string) => [
-              `${value.toLocaleString()} repos`,
-              name,
+            formatter={(value) => [
+              typeof value === 'number' ? `${value.toLocaleString()} repos` : '0',
+              '',
             ]}
           />
           <Legend wrapperStyle={{ fontSize: 11, color: '#9ca3af' }} />
