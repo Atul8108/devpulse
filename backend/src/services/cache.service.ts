@@ -17,3 +17,4 @@ export async function setCached(username: string, data: GitHubProfile): Promise<
 export async function invalidateCache(username: string): Promise<void> {
   await Profile.deleteOne({ username: username.toLowerCase() });
 }
+
